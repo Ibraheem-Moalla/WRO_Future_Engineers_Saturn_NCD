@@ -1,5 +1,5 @@
 # WRO_Future_Engineers_Saturn_NCD
-The Robot vehicle chassis design is built using LEGO pieces provided with Arduino Mega microcontroller and a Raspberry Pi 4 controller. The microcontroller is provided with five ultrasonic sensors, and the controller is provided with Raspberry pi camera V2. Two motors are used for movement, Servo motor for Acherman steering and a DC motor (j sumo 1000 rpm) for driving where the movement is distributed to the back wheels by a differential gear. Li-Poly RC batteries are used for supply purposes.
+The Robot vehicle chassis design is built using LEGO pieces. It is provided with Arduino Mega microcontroller and a Raspberry Pi 4 controller. The microcontroller is provided with five ultrasonic sensors, and the controller is provided with Raspberry pi camera V2. Two motors are used for movement, Servo motor for Acherman steering and a DC motor (j sumo 1000 rpm) for driving where the movement is distributed to the back wheels by a differential gear. Li-Poly RC batteries are used for supply purposes.
 
 For the qualifying matches, the algorithm is programmed by Arduino c (look Round_1_2.ino). The robot follows the wall along the straight section according to the distances measured by the two side sensors. The front sensor and one of the side-front sensors determine the direction of turning (right or left).
 
