@@ -6,3 +6,7 @@ For the qualifying matches, the algorithm is programmed by Arduino c (look Round
 For the final matches, Raspberry Pi detects the colour of billars (image processing) and sends a specific string to the Arduino using serial connection (look RaspberryPI_Python_CODE.py). The distance between the robot and the billar is calculated depending on the size of billar's pixels. Avoiding cube is also  programmed by Arduino c (look Round_3_4.ino). The Raspberry Pi sends another character to Arduino to complete wall following.
 
 Finally, the parking in all matches depends on the value of a specific counter and the distance measured by the front sensor.
+
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License. For more details, you can view the [full license](https://creativecommons.org/licenses/by/4.0/).
